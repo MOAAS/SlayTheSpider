@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="../style.css">
+</head>
+<body>
+
+
+<h1>MapAreaRandomizer.java</h1>
+
+<table class="src">
+
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_1'/>
+1
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_1'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>package SlayTheSpider.Model.Position;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_2'/>
+2
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_2'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_3'/>
+3
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_3'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>import java.util.concurrent.ThreadLocalRandom;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_4'/>
+4
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_4'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_5'/>
+5
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_5'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>public class MapAreaRandomizer {</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_6'/>
+6
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_6'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private final int minSize;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_7'/>
+7
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_7'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private final int maxSize;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_8'/>
+8
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_8'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private final int xLimit;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_9'/>
+9
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_9'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    private final int yLimit;</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_10'/>
+10
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_10'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_11'/>
+11
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_11'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    public MapAreaRandomizer(int minSize, int maxSize, int xLimit, int yLimit) {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_12'/>
+12
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_12'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.minSize = minSize;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_13'/>
+13
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_13'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.maxSize = maxSize;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_14'/>
+14
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_14'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.xLimit = xLimit;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_15'/>
+15
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_15'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>        this.yLimit = yLimit;</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_16'/>
+16
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_16'></a>
+<span>
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_17'/>
+17
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_17'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_18'/>
+18
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_18'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    public MapArea randomize() {</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_19'/>
+19
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_19'>1</a>
+<span>
+
+1. randomize : Replaced integer addition with subtraction &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        int width = ThreadLocalRandom.current().nextInt(minSize, maxSize+ 1);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_20'/>
+20
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_20'>1</a>
+<span>
+
+1. randomize : Replaced integer addition with subtraction &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        int height = ThreadLocalRandom.current().nextInt(minSize, maxSize + 1);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_21'/>
+21
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_21'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_22'/>
+22
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_22'>2</a>
+<span>
+
+1. randomize : Replaced integer subtraction with addition &rarr; KILLED<br/>
+
+2. randomize : Replaced integer addition with subtraction &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        int x1 = ThreadLocalRandom.current().nextInt(1, xLimit - width + 1);</span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_23'/>
+23
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_23'>2</a>
+<span>
+
+1. randomize : Replaced integer subtraction with addition &rarr; KILLED<br/>
+
+2. randomize : Replaced integer addition with subtraction &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        int y1 = ThreadLocalRandom.current().nextInt(1, yLimit - height + 1);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_24'/>
+24
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_24'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='covered'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_25'/>
+25
+</td>
+<td class='killed'>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_25'>1</a>
+<span>
+
+1. randomize : mutated return of Object value for SlayTheSpider/Model/Position/MapAreaRandomizer::randomize to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED<br/>
+
+</span>
+</span>
+</td>
+<td class='covered'><pre><span  class='killed'>        return new MapArea(new Position(x1, y1), width, height);</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_26'/>
+26
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_26'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>    }</span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_27'/>
+27
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_27'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_28'/>
+28
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_28'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''></span></pre></td></tr>
+
+
+<tr>
+<td class='na'>
+<a name='org.pitest.mutationtest.report.html.SourceFile@315c13b4_29'/>
+29
+</td>
+<td class=''>
+<span class='pop'>
+<a href='#grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_29'></a>
+<span>
+</span>
+</span>
+</td>
+<td class=''><pre><span  class=''>}</span></pre></td></tr>
+
+
+
+<tr><td></td><td></td><td><h2>Mutations</h2></td></tr>
+
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@315c13b4_19'>19</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_19'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>randomize<br/><b>Killed by : </b>SlayTheSpider.Model.Game.Overworld.Rooms.TestSpawnRoom.TestColor(SlayTheSpider.Model.Game.Overworld.Rooms.TestSpawnRoom)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@315c13b4_20'>20</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_20'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>randomize<br/><b>Killed by : </b>SlayTheSpider.Model.Game.Overworld.Rooms.TestSpawnRoom.TestColor(SlayTheSpider.Model.Game.Overworld.Rooms.TestSpawnRoom)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@315c13b4_22'>22</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_22'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>randomize<br/><b>Killed by : </b>SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom.TestRoom(SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>randomize<br/><b>Killed by : </b>SlayTheSpider.Model.Game.Overworld.Rooms.TestSpawnRoom.TestColor(SlayTheSpider.Model.Game.Overworld.Rooms.TestSpawnRoom)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@315c13b4_23'>23</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_23'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>randomize<br/><b>Killed by : </b>SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom.TestRoom(SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom)</span></span> Replaced integer subtraction with addition &rarr; KILLED</p> <p class='KILLED'><span class='pop'>2.<span><b>2</b><br/><b>Location : </b>randomize<br/><b>Killed by : </b>SlayTheSpider.Model.Game.Overworld.Rooms.TestSpawnRoom.TestColor(SlayTheSpider.Model.Game.Overworld.Rooms.TestSpawnRoom)</span></span> Replaced integer addition with subtraction &rarr; KILLED</p> 
+</td>
+</tr>
+
+<tr>
+<td><a href='#org.pitest.mutationtest.report.html.SourceFile@315c13b4_25'>25</a></td> 
+<td></td>
+<td>
+
+<a name='grouporg.pitest.mutationtest.report.html.SourceFile@315c13b4_25'/> 
+
+<p class='KILLED'><span class='pop'>1.<span><b>1</b><br/><b>Location : </b>randomize<br/><b>Killed by : </b>SlayTheSpider.Model.Game.Overworld.Rooms.TestSpawnRoom.TestColor(SlayTheSpider.Model.Game.Overworld.Rooms.TestSpawnRoom)</span></span> mutated return of Object value for SlayTheSpider/Model/Position/MapAreaRandomizer::randomize to ( if (x != null) null else throw new RuntimeException ) &rarr; KILLED</p> 
+</td>
+</tr>
+
+</table>
+
+
+<h2>Active mutators</h2>
+<ul>
+
+<li class='mutator'>INCREMENTS_MUTATOR</li>
+
+<li class='mutator'>VOID_METHOD_CALL_MUTATOR</li>
+
+<li class='mutator'>RETURN_VALS_MUTATOR</li>
+
+<li class='mutator'>MATH_MUTATOR</li>
+
+<li class='mutator'>NEGATE_CONDITIONALS_MUTATOR</li>
+
+<li class='mutator'>INVERT_NEGS_MUTATOR</li>
+
+<li class='mutator'>CONDITIONALS_BOUNDARY_MUTATOR</li>
+
+</ul>
+
+<h2>Tests examined</h2>
+<ul>
+<li>SlayTheSpider.Model.Game.Overworld.TestFloorGenerator.TestAddBossRoom(SlayTheSpider.Model.Game.Overworld.TestFloorGenerator) (2 ms)</li><li>SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom.TestEnemyRoomEnemy(SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom) (0 ms)</li><li>SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom.TestEnemyRoomStatus(SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom) (5 ms)</li><li>SlayTheSpider.Model.Game.Overworld.Rooms.TestRoom.TestRoom(SlayTheSpider.Model.Game.Overworld.Rooms.TestRoom) (1 ms)</li><li>SlayTheSpider.Model.Game.Overworld.Rooms.TestSpawnRoom.TestColor(SlayTheSpider.Model.Game.Overworld.Rooms.TestSpawnRoom) (0 ms)</li><li>SlayTheSpider.Model.Game.Overworld.Rooms.TestSpawnRoom.TestObstacle(SlayTheSpider.Model.Game.Overworld.Rooms.TestSpawnRoom) (0 ms)</li><li>SlayTheSpider.Model.Game.Overworld.TestFloorGenerator.TestGenerate(SlayTheSpider.Model.Game.Overworld.TestFloorGenerator) (1303 ms)</li><li>SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom.TestEnemyRoomWalls(SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom) (0 ms)</li><li>SlayTheSpider.Model.Game.Overworld.Rooms.TestBossRoom.TestGetColor(SlayTheSpider.Model.Game.Overworld.Rooms.TestBossRoom) (1 ms)</li><li>SlayTheSpider.Model.Game.Overworld.TestFloorGenerator.TestAddSpawnRoom(SlayTheSpider.Model.Game.Overworld.TestFloorGenerator) (1 ms)</li><li>SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom.TestRoom(SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom) (0 ms)</li><li>SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom.TestEnemyRoomGetColor(SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom) (1 ms)</li><li>SlayTheSpider.Model.Position.TestMapArea.TestRandomizer(SlayTheSpider.Model.Position.TestMapArea) (0 ms)</li><li>SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom.TestDungeonStructure(SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom) (1 ms)</li><li>SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom.TestFits(SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom) (17 ms)</li><li>SlayTheSpider.Model.Game.Overworld.Rooms.TestBossRoom.TestBosses(SlayTheSpider.Model.Game.Overworld.Rooms.TestBossRoom) (3 ms)</li><li>SlayTheSpider.Model.Game.Overworld.Rooms.TestBossRoom.TestUpdateVisibility(SlayTheSpider.Model.Game.Overworld.Rooms.TestBossRoom) (12 ms)</li><li>SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom.TestEnemyRoomVisibility(SlayTheSpider.Model.Game.Overworld.Rooms.TestEnemyRoom) (20 ms)</li>
+</ul>
+
+<br/>
+
+Report generated by <a href='http://pitest.org'>PIT</a> 1.4.3
+
+</body>
+</html>

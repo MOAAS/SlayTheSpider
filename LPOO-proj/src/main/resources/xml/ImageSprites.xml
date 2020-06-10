@@ -1,0 +1,21 @@
+<ImageSprites>
+    <Sprite id="PlayerOWU"  texture="link_up.png"/>
+    <Sprite id="PlayerOWD"  texture="link_down.png"/>
+    <Sprite id="PlayerOWL"  texture="link_left.png"/>
+    <Sprite id="PlayerOWR"  texture="link_right.png"/>
+    <Sprite id="ManaFull"   texture="manafull.png"/>
+    <Sprite id="ManaEmpty"  texture="manaempty.png"/>
+    <Sprite id="Player"     texture="player.png"/>
+    <Sprite id="Spider"     texture="spider.png"/>
+    <Sprite id="Monster"    texture="badguy.png"/>
+    <Sprite id="Bat"        texture="slime.png"/>
+    <Sprite id="Turtle"     texture="turtle.png"/>
+    <Sprite id="Skeleton"   texture="skeleton.png"/>
+    <Sprite id="SpiderBoss" texture="spiderboss.gif"/>
+    <Sprite id="ReaperBoss" texture="reaperboss.gif"/>
+    <Sprite id="Fight1"     texture="fight1.png"/>
+    <Sprite id="Fight2"     texture="fight2.png"/>
+    <Sprite id="BossFight"  texture="bossFight.png"/>
+    <Sprite id="WallSprite" texture="wall.png"/>
+    <Sprite id="Background" texture="background.jpg"/>
+</ImageSprites>

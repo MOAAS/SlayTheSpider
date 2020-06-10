@@ -1,0 +1,7 @@
+
+LPOO-proj/.gradle/*
+LPOO-proj/.idea/*
+LPOO-proj/build/*
+LPOO-proj/out/*
+LPOO-proj/replay_pid4628.log
+LPOO-proj/hs_err_pid4628.log

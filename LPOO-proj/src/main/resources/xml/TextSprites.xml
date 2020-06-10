@@ -1,0 +1,15 @@
+<TextSprites>
+    <Sprite color="00ff00" id="PlayerOW"   texture="playerOW.txt"/>
+    <Sprite color="00ff00" id="Player"     texture="player.txt"/>
+    <Sprite color="ff0000" id="Spider"     texture="spider.txt"/>
+    <Sprite color="ff0011" id="Monster"    texture="monster.txt"/>
+    <Sprite color="ff0011" id="Bat"        texture="bat.txt"/>
+    <Sprite color="ff0011" id="Turtle"     texture="turtle.txt"/>
+    <Sprite color="dddddd" id="Skeleton"   texture="skeleton.txt"/>
+    <Sprite color="ff0011" id="SpiderBoss" texture="spiderBoss.txt"/>
+    <Sprite color="888888" id="ReaperBoss" texture="grimReaper.txt"/>
+    <Sprite color="ff0000" id="Fight1"     texture="fight1.txt"/>
+    <Sprite color="ff0000" id="Fight2"     texture="fight2.txt"/>
+    <Sprite color="ff0000" id="BossFight"  texture="bossFight.txt"/>
+    <Sprite color="ff00ff" id="WallSprite" texture="wall.txt"/>
+</TextSprites>

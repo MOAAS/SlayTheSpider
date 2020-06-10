@@ -1,0 +1,711 @@
+<Cards>
+    <!--DAMAGE CARDS-->
+
+    <!--Single Target Damage Cards-->
+    <Card id="Strike">
+        <Color>c11111</Color>
+        <Cost>0</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="4">Damage</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Knife Throw">
+        <Color>c11111</Color>
+        <Cost>1</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="6">Damage</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Bash">
+        <Color>c11111</Color>
+        <Cost>2</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="9">Damage</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <!--Drawback Damage-->
+    <Card id="Hemokinesis">
+        <Color>931a1a</Color>
+        <Cost>2</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="15">Damage</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="5">SelfDamage</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <Card id="Demonic Slash">
+        <Color>931a1a</Color>
+        <Cost>1</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="12">Damage</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="2">DiscardCard</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Reckless Charge">
+        <Color>931a1a</Color>
+        <Cost>2</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="15">Damage</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="1">DiscardCard</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <Card id="Cursed Blade">
+        <Color>931a1a</Color>
+        <Cost>1</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="15">Damage</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="3">DiscardCard</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <!--Damage + Draw-->
+    <Card id="Rapid Fire">
+        <Color>c11111</Color>
+        <Cost>1</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="4">Damage</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="1">DrawCard</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Steady Shot">
+        <Color>c11111</Color>
+        <Cost>2</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="5">Damage</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="2">DrawCard</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Deadly Shot">
+        <Color>c11111</Color>
+        <Cost>2</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="7">Damage</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="1">DrawCard</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <!--Area Damage-->
+    <Card id="Whirlwind">
+        <Color>f7571d</Color>
+        <Cost>2</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="5">AoEDamage</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Explosive Shot">
+        <Color>f7571d</Color>
+        <Description>Deals 9 damage to an enemy and 4 to all others</Description>
+        <Cost>3</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="4">Damage</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="4">AoEDamage</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Shockwave">
+        <Color>f7571d</Color>
+        <Cost>3</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="9">AoEDamage</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type effect="Weak" duration="2">SelfStatusEffect</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <Card id="Spirit Lash">
+        <Color>ffdc84</Color>
+        <Cost>2</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="3" drainPerDmg="1">AoELifeDrain</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <!--Condicional Damage Cards-->
+    <Card id="Charged Shot">
+        <Color>db064d</Color>
+        <Cost>3</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="8">Damage</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="8">Damage</Type>
+                <Condition expected="3">UserHandLargerThan</Condition>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Reaper">
+        <Color>ffdc84</Color>
+        <Description>Deals 5 damage to all enemies. If the User has less than 30.0% HP heals for each health point dealt.</Description>
+        <Cost>3</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="5">AoEDamage</Type>
+                <Condition expected="0.3">UserHPGreaterThan</Condition>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="5" drainPerDmg="1">AoELifeDrain</Type>
+                <Condition expected="0.3">UserHPEqualTo</Condition>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="5" drainPerDmg="1">AoELifeDrain</Type>
+                <Condition expected="0.3">UserHPLessThan</Condition>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Marked Shot">
+        <Color>db064d</Color>
+        <Description>If there is only one enemy left deal 6 damage, else deal 3 damage to all</Description>
+        <Cost>1</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="3">AoEDamage</Type>
+                <Condition expected="1">NumEnemiesGreaterThan</Condition>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="6">Damage</Type>
+                <Condition expected="2">NumEnemiesLessThan</Condition>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Snipe">
+        <Color>db064d</Color>
+        <Cost>3</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="7">Damage</Type>
+                <Condition expected="0.5">TargetHPGreaterThan</Condition>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="7">Damage</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Backstab">
+        <Color>db064d</Color>
+        <Cost>1</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="7">Damage</Type>
+                <Condition expected="1">TargetHPEqualTo</Condition>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="2">Damage</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Sneaky Strike">
+        <Color>db064d</Color>
+        <Description>If you did not deal any damage last turn, deal 9 damage</Description>
+        <Cost>0</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="9">Damage</Type>
+                <Condition expected="1">LastTurnDamageLessThan</Condition>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <!--Other Damage Cards-->
+    <Card id="Boomerang">
+        <Color>3d1c51</Color>
+        <Cost>2</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type perCard="6">TurnCardsToDamage</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+
+    <!--SHIELD CARDS-->
+
+    <!--Normal Shield-->
+    <Card id="Block">
+        <Color>868ee0</Color>
+        <Cost>1</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="7">SelfShield</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Iron Hide">
+        <Color>868ee0</Color>
+        <Cost>2</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="11">SelfShield</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <Card id="Upgrade">
+        <Color>868ee0</Color>
+        <Cost>2</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type multiplier="2">MultiplyShield</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+
+    <!--Shield + Draw-->
+    <Card id="Dodge">
+        <Color>868ee0</Color>
+        <Cost>1</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="5">SelfShield</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="1">DrawCard</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Backflip">
+        <Color>868ee0</Color>
+        <Cost>2</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="8">SelfShield</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="1">DrawCard</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Shield Block">
+        <Color>868ee0</Color>
+        <Cost>4</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="10">SelfShield</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="3">DrawCard</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <!--Other Shield Cards-->
+    <Card id="Flame Barrier">
+        <Color>868ee0</Color>
+        <Cost>1</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="3">SelfDamage</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="15">SelfShield</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <Card id="Shield Slam">
+        <Color>832fc4</Color>
+        <Cost>0</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type perShieldPoint="1">AoEShieldToDamage</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type>ShieldClear</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+
+    <!--DAMAGE + SHIELD-->
+    <Card id="Spiked Shield">
+        <Color>370570</Color>
+        <Cost>2</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="7">Damage</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="5">SelfShield</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Shield Strike">
+        <Color>370570</Color>
+        <Cost>3</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="10">Damage</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="6">SelfShield</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+
+
+    <!--DRAW CARDS-->
+
+    <!--Normal Draw-->
+    <Card id="Battle Plan">
+        <Color>824275</Color>
+        <Cost>1</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="2">DrawCard</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Backup Plan">
+        <Color>824275</Color>
+        <Cost>2</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="3">DrawCard</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <!--Draw + Discard-->
+    <Card id="Demonic Pact">
+        <Color>512849</Color>
+        <Cost>1</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="2">DiscardCard</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="4">DrawCard</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Transmutation">
+        <Color>512849</Color>
+        <Cost>1</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="3">DrawCard</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="1">DiscardCard</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+
+    <!--Condicional Draw Cards-->
+    <Card id="Rampage">
+        <Color>edb4ea</Color>
+        <Cost>1</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="5">Damage</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="2">DrawCard</Type>
+                <Condition expected="1">UserHandSmallerThan</Condition>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <!--Add Random Cards Cards-->
+    <Card id="Loot Chest">
+        <Color>824275</Color>
+        <Cost>2</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="3">AddCards</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+
+    <!--HEAL CARDS-->
+
+    <!--Normal Heal-->
+    <Card id="Healing Potion">
+        <Color>47bc47</Color>
+        <Cost>3</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="10">SelfHeal</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <!--Heal + Draw-->
+    <Card id="Med Kit">
+        <Color>47bc47</Color>
+        <Cost>3</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="7">SelfHeal</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="2">DrawCard</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <!--Condicional Heal Cards-->
+    <Card id="Feed">
+        <Color>3e915a</Color>
+        <Cost>2</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="6">SelfShield</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="8">SelfHeal</Type>
+                <Condition expected="0.5">UserHPLessThan</Condition>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+
+    <!--MANA CARDS-->
+    <Card id="Preparation">
+        <Color>00a56e</Color>
+        <Cost>1</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="4">ManaRestore</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Inervate">
+        <Color>00a56e</Color>
+        <Cost>0</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="2">ManaRestore</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+
+    <!--WEAKEN CARDS-->
+    <Card id="Sickness Potion">
+        <Color>636149</Color>
+        <Cost>2</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type effect="Weak" duration="2">StatusEffect</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="1">DrawCard</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <Card id="Intimidate">
+        <Color>636149</Color>
+        <Cost>3</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type effect="Weak" duration="2">StatusEffect</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="7">SelfShield</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <!--SELF-EFFECTS CARDS-->
+    <Card id="Inner Rage">
+        <Color>493839</Color>
+        <Cost>3</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type effect="Strength" duration="1">SelfStatusEffect</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <Card id="Strength Potion">
+        <Color>493839</Color>
+        <Cost>3</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type effect="Weak" duration="1">SelfStatusEffect</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type effect="Strength" duration="2">SelfStatusEffect</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <Card id="Metalize">
+        <Color>303c44</Color>
+        <Cost>3</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type effect="Armored" duration="2">SelfStatusEffect</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <Card id="Demon Form">
+        <Color>3b2d3f</Color>
+        <Cost>4</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type effect="Strength" duration="2">SelfStatusEffect</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type effect="Armored" duration="2">SelfStatusEffect</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+
+    <!--Legendary Cards-->
+    <Card id="Golden Book">
+        <Color>c4a300</Color>
+        <Cost>0</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="2">AddCards</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Flex">
+        <Color>c4a300</Color>
+        <Cost>1</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="5">Damage</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="5">SelfShield</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="1">DrawCard</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Searing Blow">
+        <Color>c4a300</Color>
+        <Cost>2</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="7">Damage</Type>
+                <Condition expected="3">UserHandLargerThan</Condition>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="7">SelfShield</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Golden Armor">
+        <Color>c4a300</Color>
+        <Cost>3</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type effect="Armored" duration="1">SelfStatusEffect</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="2">DrawCard</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Bludgeon">
+        <Color>c4a300</Color>
+        <Cost>4</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="25">Damage</Type>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+    <Card id="Skull Smash">
+        <Color>c4a300</Color>
+        <Cost>5</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="10">Damage</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="5">ManaRestore</Type>
+                <Condition expected="3">UserHandLargerThan</Condition>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <!--Boss Cards-->
+
+    <Card id="Reapers Scythe">
+        <Color>ff0022</Color>
+        <Cost>1</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="6">Damage</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="6">Damage</Type>
+                <Condition expected="3">UserHandSmallerThan</Condition>
+            </CardEffect>
+        </CardEffects>
+    </Card>
+
+    <Card id="Spider Silk">
+        <Color>00e9ff</Color>
+        <Cost>0</Cost>
+        <CardEffects>
+            <CardEffect>
+                <Type amount="1">DrawCard</Type>
+            </CardEffect>
+            <CardEffect>
+                <Type amount="2">ManaRestore</Type>
+                <Condition expected="0.5">UserHPLessThan</Condition>/
+            </CardEffect>
+        </CardEffects>
+    </Card>
+</Cards>

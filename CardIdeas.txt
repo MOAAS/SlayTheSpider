@@ -1,0 +1,22 @@
+reduz o seu custo por cada carta jogada
+remover X ataque de um certo inimigo
+a proxima carta é jogada 2 vezes
+double shield
+
+SE blabla -> EFEITO      SENAO -> EFEITO2
+
+se o inimigo tirar menos de X dano -> (ex. instakill)
+se nao tiver cartas de dano na mao ->
+se uma carta igual ja tiver sido jogada ->
+
+
+EFEITO ,  se blabla -> EFEITO
+tira x dano , se nao morrer/morrer -> (ex. draw a card)
+tira x dano AOE , se alguem morrer -> repetir efeito
+draw a card , se custar menos de X ->
+
+
+
+Tipos de cartas:
+-nao se podem jogar mais nenhuma vez neste jogo
+-podem-se jogar infinitas vezes nesse turno(echo)

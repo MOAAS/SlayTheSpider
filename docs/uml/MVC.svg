@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="453px" height="591px" version="1.1">
+    <defs>
+        <style type="text/css">ul { margin-top: 0px; margin-bottom: 10px } &#xa;ol { margin-top: 0px; margin-bottom: 10px } &#xa;ul { margin-top: 0px; margin-bottom: 10px } &#xa;ol { margin-top: 0px; margin-bottom: 10px } &#xa;ul { margin-top: 0px; margin-bottom: 10px } &#xa;ol { margin-top: 0px; margin-bottom: 10px } &#xa;</style>
+    </defs>
+    <g transform="translate(0.5,0.5)">
+        <rect x="153" y="530" width="122" height="58" fill="#90e080" stroke="#000000" pointer-events="none"/>
+        <path d="M 153 562 L 275 562" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="213.5" y="542.5">&lt;&lt;Interface&gt;&gt;</text>
+            <text x="213.5" y="556.5">Model</text>
+        </g>
+        <rect x="157.5" y="166" width="113" height="58" fill="#90e080" stroke="#000000" pointer-events="none"/>
+        <path d="M 157.5 198 L 270.5 198" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="213.5" y="178.5">&lt;&lt;Interface&gt;&gt;</text>
+            <text x="213.5" y="192.5">View</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="164" y="214.5">+ draw()</text>
+        </g>
+        <rect x="127.5" y="0" width="177" height="59" fill="#90e080" stroke="#000000" pointer-events="none"/>
+        <path d="M 127.5 32 L 304.5 32" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="215.5" y="12.5">&lt;&lt;Interface&gt;&gt;</text>
+            <text x="215.5" y="26.5">Controller</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="134" y="46.5">+ processEvent(GameEvent)</text>
+        </g>
+        <rect x="87.5" y="401" width="80" height="40" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 87.5 419 L 167.5 419" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="127" y="413.5">FightModel</text>
+        </g>
+        <rect x="256.5" y="401" width="80" height="40" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 256.5 419 L 336.5 419" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="296" y="413.5">RewardModel</text>
+        </g>
+        <rect x="231.5" y="268" width="130" height="42" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 231.5 286 L 361.5 286" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="296" y="280.5">RewardViewSwing</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="238" y="302.5">+ draw()</text>
+        </g>
+        <rect x="66.5" y="268" width="122" height="42" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 66.5 286 L 188.5 286" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="127" y="280.5">FightViewSwing</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="73" y="302.5">+ draw()</text>
+        </g>
+        <rect x="0" y="108" width="94" height="58" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 0 126 L 94 126" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="46.5" y="120.5">FightController</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="6.5" y="140.5">- fightModel</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="6.5" y="156.5">- fightView</text>
+        </g>
+        <rect x="342.5" y="103" width="107" height="58" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 342.5 121 L 449.5 121" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="395.5" y="115.5">RewardController</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="349" y="135.5">- rewardModel</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="349" y="151.5">- rewardView</text>
+        </g>
+        <path d="M 214 237.12 L 214 241.56 Q 214 246 204 246 L 138 246 Q 128 246 128 256 L 128 268" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 225.12 L 220 237.12 L 208 237.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 237.12 L 214 241.56 Q 214 246 224 246 L 287 246 Q 297 246 297 256 L 297 268" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 225.12 L 220 237.12 L 208 237.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 216 72.12 L 216 78.06 Q 216 84 206 84 L 57 84 Q 47 84 47 94 L 47 108" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 216 60.12 L 222 72.12 L 210 72.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 216 72.12 L 216 76.56 Q 216 81 226 81 L 386 81 Q 396 81 396 91 L 396 103" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 216 60.12 L 222 72.12 L 210 72.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 516.88 L 214 496 Q 214 486 204 486 L 138 486 Q 128 486 128 476 L 128 441" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 528.88 L 208 516.88 L 220 516.88 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 516.88 L 214 496 Q 214 486 224 486 L 287 486 Q 297 486 297 476 L 297 441" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 528.88 L 208 516.88 L 220 516.88 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 128 310 L 128 398.76" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 122 387.88 L 128 399.88 L 134 387.88" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 47 166 L 47 185 Q 47 195 57 195 L 155.76 195" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 144.88 201 L 156.88 195 L 144.88 189" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 396 161 L 396 185 Q 396 195 386 195 L 273.24 195" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 284.12 189 L 272.12 195 L 284.12 201" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 396 161 L 396 411 Q 396 421 386 421 L 339.24 421" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 350.12 415 L 338.12 421 L 350.12 427" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 47 166 L 47 411 Q 47 421 57 421 L 85.76 421" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 74.88 427 L 86.88 421 L 74.88 415" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 297 310 L 297 398.76" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 291 387.88 L 297 399.88 L 303 387.88" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 516.88 L 214 496 Q 214 486 204 486 L 138 486 Q 128 486 128 476 L 128 441" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 528.88 L 208 516.88 L 220 516.88 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 516.88 L 214 496 Q 214 486 224 486 L 287 486 Q 297 486 297 476 L 297 441" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 528.88 L 208 516.88 L 220 516.88 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 237.12 L 214 241.56 Q 214 246 204 246 L 138 246 Q 128 246 128 256 L 128 268" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 225.12 L 220 237.12 L 208 237.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 237.12 L 214 241.56 Q 214 246 224 246 L 287 246 Q 297 246 297 256 L 297 268" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 225.12 L 220 237.12 L 208 237.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 47 166 L 47 185 Q 47 195 57 195 L 155.76 195" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 144.88 201 L 156.88 195 L 144.88 189" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 396 161 L 396 185 Q 396 195 386 195 L 273.24 195" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 284.12 189 L 272.12 195 L 284.12 201" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 216 72.12 L 216 78.06 Q 216 84 206 84 L 57 84 Q 47 84 47 94 L 47 108" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 216 60.12 L 222 72.12 L 210 72.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 216 72.12 L 216 76.56 Q 216 81 226 81 L 386 81 Q 396 81 396 91 L 396 103" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 216 60.12 L 222 72.12 L 210 72.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 516.88 L 214 496 Q 214 486 204 486 L 138 486 Q 128 486 128 476 L 128 441" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 528.88 L 208 516.88 L 220 516.88 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 128 310 L 128 398.76" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 122 387.88 L 128 399.88 L 134 387.88" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 47 166 L 47 411 Q 47 421 57 421 L 85.76 421" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 74.88 427 L 86.88 421 L 74.88 415" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 516.88 L 214 496 Q 214 486 224 486 L 287 486 Q 297 486 297 476 L 297 441" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 528.88 L 208 516.88 L 220 516.88 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 396 161 L 396 411 Q 396 421 386 421 L 339.24 421" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 350.12 415 L 338.12 421 L 350.12 427" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 297 310 L 297 398.76" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 291 387.88 L 297 399.88 L 303 387.88" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 237.12 L 214 241.56 Q 214 246 224 246 L 287 246 Q 297 246 297 256 L 297 268" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 225.12 L 220 237.12 L 208 237.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 297 310 L 297 398.76" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 291 387.88 L 297 399.88 L 303 387.88" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 237.12 L 214 241.56 Q 214 246 204 246 L 138 246 Q 128 246 128 256 L 128 268" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 214 225.12 L 220 237.12 L 208 237.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 128 310 L 128 398.76" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 122 387.88 L 128 399.88 L 134 387.88" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 216 72.12 L 216 78.06 Q 216 84 206 84 L 57 84 Q 47 84 47 94 L 47 108" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 216 60.12 L 222 72.12 L 210 72.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 47 166 L 47 185 Q 47 195 57 195 L 155.76 195" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 144.88 201 L 156.88 195 L 144.88 189" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 47 166 L 47 411 Q 47 421 57 421 L 85.76 421" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 74.88 427 L 86.88 421 L 74.88 415" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 216 72.12 L 216 76.56 Q 216 81 226 81 L 386 81 Q 396 81 396 91 L 396 103" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 216 60.12 L 222 72.12 L 210 72.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 396 161 L 396 185 Q 396 195 386 195 L 273.24 195" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 284.12 189 L 272.12 195 L 284.12 201" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 396 161 L 396 411 Q 396 421 386 421 L 339.24 421" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 350.12 415 L 338.12 421 L 350.12 427" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+    </g>
+</svg>

@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="774px" height="265px" version="1.1">
+    <defs>
+        <style type="text/css">ul { margin-top: 0px; margin-bottom: 10px } &#xa;ol { margin-top: 0px; margin-bottom: 10px } &#xa;ul { margin-top: 0px; margin-bottom: 10px } &#xa;ol { margin-top: 0px; margin-bottom: 10px } &#xa;ul { margin-top: 0px; margin-bottom: 10px } &#xa;ol { margin-top: 0px; margin-bottom: 10px } &#xa;</style>
+    </defs>
+    <g transform="translate(0.5,0.5)">
+        <rect x="66" y="21" width="126" height="50" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 66 53 L 192 53" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="128.5" y="33.5">&lt;&lt;Abstract&gt;&gt;</text>
+            <text x="128.5" y="47.5">HealthBar</text>
+        </g>
+        <g transform="translate(105.5,0.5)">
+            <switch>
+                <foreignObject style="overflow:visible;" pointer-events="all" width="42" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Product</div>
+                    </div>
+                </foreignObject>
+                <svg style="width: 42px; height: 12px;" width="42" height="12">
+                    <defs>
+                        <path id="MBgfzlaHyfzAFwF." d="M0,11.899999999999999 h42"/>
+                    </defs>
+                    <text fill="rgb(0, 0, 0)" font-size="12px" font-family="Helvetica" font-weight="400">
+                        <textPath xlink:href="#MBgfzlaHyfzAFwF.">
+                            <tspan xml:space="preserve">Product</tspan>
+                        </textPath>
+                    </text>
+                </svg>
+            </switch>
+        </g>
+        <rect x="0" y="116" width="104" height="40" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 0 134 L 104 134" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="51.5" y="128.5">PlayerHealthBar</text>
+        </g>
+        <rect x="149" y="116" width="111" height="40" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 149 134 L 260 134" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="204" y="128.5">EnemyHealthBar</text>
+        </g>
+        <path d="M 129 84.12 L 129 89.06 Q 129 94 119 94 L 62 94 Q 52 94 52 104 L 52 116" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 129 72.12 L 135 84.12 L 123 84.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 129 84.12 L 129 89.06 Q 129 94 139 94 L 195 94 Q 205 94 205 104 L 205 116" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 129 72.12 L 135 84.12 L 123 84.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(78.5,96.5)">
+            <switch>
+                <foreignObject style="overflow:visible;" pointer-events="all" width="95" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Concrete Product</div>
+                    </div>
+                </foreignObject>
+                <svg style="width: 95px; height: 12px;" width="95" height="12">
+                    <defs>
+                        <path id="SBgfzlaHyfzAFwF_" d="M0,11.899999999999999 h95"/>
+                    </defs>
+                    <text fill="rgb(0, 0, 0)" font-size="12px" font-family="Helvetica" font-weight="400">
+                        <textPath xlink:href="#SBgfzlaHyfzAFwF_">
+                            <tspan xml:space="preserve">Concrete Product</tspan>
+                        </textPath>
+                    </text>
+                </svg>
+            </switch>
+        </g>
+        <rect x="394" y="19" width="139" height="56" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 394 51 L 533 51" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="463" y="31.5">&lt;&lt;Abstract&gt;&gt;</text>
+            <text x="463" y="45.5">Character</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="400.5" y="67.5">+ createHealthBar()</text>
+        </g>
+        <rect x="333" y="116" width="122" height="44" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 333 134 L 455 134" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="393.5" y="128.5">Enemy</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="339.5" y="150.5">+ createHealthBar()</text>
+        </g>
+        <rect x="483" y="116" width="123" height="44" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 483 134 L 606 134" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="544" y="128.5">Player</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="489.5" y="150.5">+ createHealthBar()</text>
+        </g>
+        <path d="M 464 88.12 L 464 92.06 Q 464 96 474 96 L 535 96 Q 545 96 545 106 L 545 116" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 464 76.12 L 470 88.12 L 458 88.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 464 88.12 L 464 92.06 Q 464 96 454 96 L 404 96 Q 394 96 394 106 L 394 116" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 464 76.12 L 470 88.12 L 458 88.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(415.5,98.5)">
+            <switch>
+                <foreignObject style="overflow:visible;" pointer-events="all" width="94" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Concrete Creator</div>
+                    </div>
+                </foreignObject>
+                <svg style="width: 94px; height: 12px;" width="94" height="12">
+                    <defs>
+                        <path id="uBgfzlaHyfzAFwGA" d="M0,11.899999999999999 h94"/>
+                    </defs>
+                    <text fill="rgb(0, 0, 0)" font-size="12px" font-family="Helvetica" font-weight="400">
+                        <textPath xlink:href="#uBgfzlaHyfzAFwGA">
+                            <tspan xml:space="preserve">Concrete Creator</tspan>
+                        </textPath>
+                    </text>
+                </svg>
+            </switch>
+        </g>
+        <g transform="translate(441.5,0.5)">
+            <switch>
+                <foreignObject style="overflow:visible;" pointer-events="all" width="41" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Creator</div>
+                    </div>
+                </foreignObject>
+                <svg style="width: 41px; height: 12px;" width="41" height="12">
+                    <defs>
+                        <path id=".BgfzlaHyfzAFwGB" d="M0,11.899999999999999 h41"/>
+                    </defs>
+                    <text fill="rgb(0, 0, 0)" font-size="12px" font-family="Helvetica" font-weight="400">
+                        <textPath xlink:href="#.BgfzlaHyfzAFwGB">
+                            <tspan xml:space="preserve">Creator</tspan>
+                        </textPath>
+                    </text>
+                </svg>
+            </switch>
+        </g>
+        <path d="M 545 160 L 545 239 Q 545 249 535 249 L 62 249 Q 52 249 52 239 L 52 158.24" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 58 169.12 L 52 157.12 L 46 169.12" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 394 160 L 394 200 Q 394 210 384 210 L 215 210 Q 205 210 205 200 L 205 158.24" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 211 169.12 L 205 157.12 L 199 169.12" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 588 178 L 756 178 L 756 193 L 771 193 L 771 218 L 588 218 Z" fill="#e6e6e6" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 588 178 L 756 178 L 771 193 L 756 193 L 756 178 L 771 193 L 771 218 L 588 218 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(590.5,183.5)">
+            <switch>
+                <foreignObject style="overflow:visible;" pointer-events="all" width="158" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">return new PlayerHealthBar()</div>
+                    </div>
+                </foreignObject>
+                <svg style="width: 158px; height: 12px;" width="158" height="12">
+                    <defs>
+                        <path id="RBgfzlaHyfzAFwGC" d="M0,11.899999999999999 h158"/>
+                    </defs>
+                    <text fill="rgb(0, 0, 0)" font-size="12px" font-family="Helvetica" font-weight="400">
+                        <textPath xlink:href="#RBgfzlaHyfzAFwGC">
+                            <tspan xml:space="preserve">return new PlayerHealthBar()</tspan>
+                        </textPath>
+                    </text>
+                </svg>
+            </switch>
+        </g>
+        <path d="M 606 138 L 659 138 Q 669 138 669 148 L 669 178" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="4" pointer-events="none"/>
+        <path d="M 129 84.12 L 129 89.06 Q 129 94 119 94 L 62 94 Q 52 94 52 104 L 52 116" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 129 72.12 L 135 84.12 L 123 84.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 129 84.12 L 129 89.06 Q 129 94 139 94 L 195 94 Q 205 94 205 104 L 205 116" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 129 72.12 L 135 84.12 L 123 84.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 129 84.12 L 129 89.06 Q 129 94 119 94 L 62 94 Q 52 94 52 104 L 52 116" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 129 72.12 L 135 84.12 L 123 84.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 545 160 L 545 239 Q 545 249 535 249 L 62 249 Q 52 249 52 239 L 52 158.24" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 58 169.12 L 52 157.12 L 46 169.12" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 129 84.12 L 129 89.06 Q 129 94 139 94 L 195 94 Q 205 94 205 104 L 205 116" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 129 72.12 L 135 84.12 L 123 84.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 394 160 L 394 200 Q 394 210 384 210 L 215 210 Q 205 210 205 200 L 205 158.24" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 211 169.12 L 205 157.12 L 199 169.12" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 464 88.12 L 464 92.06 Q 464 96 474 96 L 535 96 Q 545 96 545 106 L 545 116" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 464 76.12 L 470 88.12 L 458 88.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 464 88.12 L 464 92.06 Q 464 96 454 96 L 404 96 Q 394 96 394 106 L 394 116" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 464 76.12 L 470 88.12 L 458 88.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 464 88.12 L 464 92.06 Q 464 96 454 96 L 404 96 Q 394 96 394 106 L 394 116" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 464 76.12 L 470 88.12 L 458 88.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 394 160 L 394 200 Q 394 210 384 210 L 215 210 Q 205 210 205 200 L 205 158.24" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 211 169.12 L 205 157.12 L 199 169.12" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 464 88.12 L 464 92.06 Q 464 96 474 96 L 535 96 Q 545 96 545 106 L 545 116" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 464 76.12 L 470 88.12 L 458 88.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 545 160 L 545 239 Q 545 249 535 249 L 62 249 Q 52 249 52 239 L 52 158.24" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 58 169.12 L 52 157.12 L 46 169.12" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 606 138 L 659 138 Q 669 138 669 148 L 669 178" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="4" pointer-events="none"/>
+        <path d="M 606 138 L 659 138 Q 669 138 669 148 L 669 178" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="4" pointer-events="none"/>
+    </g>
+</svg>

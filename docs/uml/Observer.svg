@@ -1,0 +1,237 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="491px" height="234px" version="1.1">
+    <defs>
+        <style type="text/css">ul { margin-top: 0px; margin-bottom: 10px } &#xa;ol { margin-top: 0px; margin-bottom: 10px } &#xa;ul { margin-top: 0px; margin-bottom: 10px } &#xa;ol { margin-top: 0px; margin-bottom: 10px } &#xa;ul { margin-top: 0px; margin-bottom: 10px } &#xa;ol { margin-top: 0px; margin-bottom: 10px } &#xa;</style>
+    </defs>
+    <g transform="translate(0.5,0.5)">
+        <rect x="0" y="0" width="142" height="72" fill="#90e080" stroke="#000000" pointer-events="none"/>
+        <path d="M 0 32 L 142 32" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="70.5" y="12.5">&lt;&lt;Interface&gt;&gt;</text>
+            <text x="70.5" y="26.5">MainMenuObserver</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="6.5" y="48.5">+ notifiedNewGame()</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="6.5" y="64.5">+ notifiedQuitGame()</text>
+        </g>
+        <rect x="255" y="0" width="147" height="64" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 255 32 L 402 32" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="328" y="12.5">&lt;&lt;Abstract&gt;&gt;</text>
+            <text x="328" y="26.5">MainMenuCommand</text>
+        </g>
+        <rect x="5" y="123" width="132" height="58" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 5 141 L 137 141" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="70.5" y="135.5">SuperController</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="11.5" y="157.5">+ notifiedNewGame()</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="11.5" y="173.5">+ notifiedQuitGame()</text>
+        </g>
+        <path d="M 71 85.12 L 71 104 Q 71 114 71 118.5 L 71 123" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 71 73.12 L 77 85.12 L 65 85.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(19.5,96.5)">
+            <switch>
+                <foreignObject style="overflow:visible;" pointer-events="all" width="103" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Concrete Observer</div>
+                    </div>
+                </foreignObject>
+                <svg style="width: 103px; height: 12px;" width="103" height="12">
+                    <defs>
+                        <path id="FVu7zlaHyfzAFwDB" d="M0,11.899999999999999 h103"/>
+                    </defs>
+                    <text fill="rgb(0, 0, 0)" font-size="12px" font-family="Helvetica" font-weight="400">
+                        <textPath xlink:href="#FVu7zlaHyfzAFwDB" startOffset="50%" text-anchor="middle">
+                            <tspan xml:space="preserve">Concrete Observer</tspan>
+                        </textPath>
+                    </text>
+                </svg>
+            </switch>
+        </g>
+        <rect x="176" y="118" width="140" height="50" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 176 136 L 316 136" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="245.5" y="130.5">NewGameCommand</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="182.5" y="152.5">+ execute()</text>
+        </g>
+        <rect x="348" y="118" width="140" height="50" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 348 136 L 488 136" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="417.5" y="130.5">QuitGameCommand</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="354.5" y="152.5">+ execute()</text>
+        </g>
+        <path d="M 329 77.12 L 329 84.06 Q 329 91 319 91 L 256 91 Q 246 91 246 101 L 246 118" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 329 65.12 L 335 77.12 L 323 77.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 329 77.12 L 329 84.06 Q 329 91 339 91 L 408 91 Q 418 91 418 101 L 418 118" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 329 65.12 L 335 77.12 L 323 77.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(274.5,97.5)">
+            <switch>
+                <foreignObject style="overflow:visible;" pointer-events="all" width="101" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Concrete Subjects</div>
+                    </div>
+                </foreignObject>
+                <svg style="width: 101px; height: 12px;" width="101" height="12">
+                    <defs>
+                        <path id="9Vu7zlaHyfzAFwDC" d="M0,11.899999999999999 h101"/>
+                    </defs>
+                    <text fill="rgb(0, 0, 0)" font-size="12px" font-family="Helvetica" font-weight="400">
+                        <textPath xlink:href="#9Vu7zlaHyfzAFwDC">
+                            <tspan xml:space="preserve">Concrete Subjects</tspan>
+                        </textPath>
+                    </text>
+                </svg>
+            </switch>
+        </g>
+        <path d="M 279 191 L 374 191 L 374 206 L 389 206 L 389 231 L 279 231 Z" fill="#e6e6e6" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 279 191 L 374 191 L 389 206 L 374 206 L 374 191 L 389 206 L 389 231 L 279 231 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(281.5,196.5)">
+            <switch>
+                <foreignObject style="overflow:visible;" pointer-events="all" width="91" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">notifies observer</div>
+                    </div>
+                </foreignObject>
+                <svg style="width: 91px; height: 12px;" width="91" height="12">
+                    <defs>
+                        <path id="jVu7zlaHyfzAFwDD" d="M0,11.899999999999999 h91"/>
+                    </defs>
+                    <text fill="rgb(0, 0, 0)" font-size="12px" font-family="Helvetica" font-weight="400">
+                        <textPath xlink:href="#jVu7zlaHyfzAFwDD">
+                            <tspan xml:space="preserve">notifies observer</tspan>
+                        </textPath>
+                    </text>
+                </svg>
+            </switch>
+        </g>
+        <path d="M 241.29 36 L 231.65 36 Q 222 36 212 36 L 142 36" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 254.29 36 L 247.79 42.5 L 241.29 36 L 247.79 29.5 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(174.5,18.5)">
+            <switch>
+                <foreignObject style="overflow:visible;" pointer-events="all" width="53" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Observes</div>
+                    </div>
+                </foreignObject>
+                <svg style="width: 53px; height: 12px;" width="53" height="12">
+                    <defs>
+                        <path id="TVu7zlaHyfzAFwDE" d="M0,11.899999999999999 h53"/>
+                    </defs>
+                    <text fill="rgb(0, 0, 0)" font-size="12px" font-family="Helvetica" font-weight="400">
+                        <textPath xlink:href="#TVu7zlaHyfzAFwDE" startOffset="50%" text-anchor="middle">
+                            <tspan xml:space="preserve">Observes</tspan>
+                        </textPath>
+                    </text>
+                </svg>
+            </switch>
+        </g>
+        <path d="M 246 168 L 246 174 Q 246 180 256 180 L 313 180 Q 323 180 323 185.5 L 323 191" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="4" pointer-events="none"/>
+        <path d="M 362 191 L 355.5 191 Q 349 191 349 185.5 L 349 182.75 Q 349 180 359 180 L 408 180 Q 418 180 418 174 L 418 168" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="4" pointer-events="none"/>
+        <path d="M 71 85.12 L 71 104 Q 71 114 71 118.5 L 71 123" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 71 73.12 L 77 85.12 L 65 85.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(19.5,96.5)">
+            <switch>
+                <foreignObject style="overflow:visible;" pointer-events="all" width="103" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Concrete Observer</div>
+                    </div>
+                </foreignObject>
+                <svg style="width: 103px; height: 12px;" width="103" height="12">
+                    <defs>
+                        <path id="LVu7zlaHyfzAFwDF" d="M0,11.899999999999999 h103"/>
+                    </defs>
+                    <text fill="rgb(0, 0, 0)" font-size="12px" font-family="Helvetica" font-weight="400">
+                        <textPath xlink:href="#LVu7zlaHyfzAFwDF" startOffset="50%" text-anchor="middle">
+                            <tspan xml:space="preserve">Concrete Observer</tspan>
+                        </textPath>
+                    </text>
+                </svg>
+            </switch>
+        </g>
+        <path d="M 241.29 36 L 231.65 36 Q 222 36 212 36 L 142 36" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 254.29 36 L 247.79 42.5 L 241.29 36 L 247.79 29.5 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(174.5,18.5)">
+            <switch>
+                <foreignObject style="overflow:visible;" pointer-events="all" width="53" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Observes</div>
+                    </div>
+                </foreignObject>
+                <svg style="width: 53px; height: 12px;" width="53" height="12">
+                    <defs>
+                        <path id="rVu7zlaHyfzAFwDG" d="M0,11.899999999999999 h53"/>
+                    </defs>
+                    <text fill="rgb(0, 0, 0)" font-size="12px" font-family="Helvetica" font-weight="400">
+                        <textPath xlink:href="#rVu7zlaHyfzAFwDG" startOffset="50%" text-anchor="middle">
+                            <tspan xml:space="preserve">Observes</tspan>
+                        </textPath>
+                    </text>
+                </svg>
+            </switch>
+        </g>
+        <path d="M 329 77.12 L 329 84.06 Q 329 91 319 91 L 256 91 Q 246 91 246 101 L 246 118" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 329 65.12 L 335 77.12 L 323 77.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 329 77.12 L 329 84.06 Q 329 91 339 91 L 408 91 Q 418 91 418 101 L 418 118" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 329 65.12 L 335 77.12 L 323 77.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 241.29 36 L 231.65 36 Q 222 36 212 36 L 142 36" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 254.29 36 L 247.79 42.5 L 241.29 36 L 247.79 29.5 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(174.5,18.5)">
+            <switch>
+                <foreignObject style="overflow:visible;" pointer-events="all" width="53" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Observes</div>
+                    </div>
+                </foreignObject>
+                <svg style="width: 53px; height: 12px;" width="53" height="12">
+                    <defs>
+                        <path id="HVu7zlaHyfzAFwDH" d="M0,11.899999999999999 h53"/>
+                    </defs>
+                    <text fill="rgb(0, 0, 0)" font-size="12px" font-family="Helvetica" font-weight="400">
+                        <textPath xlink:href="#HVu7zlaHyfzAFwDH" startOffset="50%" text-anchor="middle">
+                            <tspan xml:space="preserve">Observes</tspan>
+                        </textPath>
+                    </text>
+                </svg>
+            </switch>
+        </g>
+        <path d="M 71 85.12 L 71 104 Q 71 114 71 118.5 L 71 123" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 71 73.12 L 77 85.12 L 65 85.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(19.5,96.5)">
+            <switch>
+                <foreignObject style="overflow:visible;" pointer-events="all" width="103" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap; text-align: center;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Concrete Observer</div>
+                    </div>
+                </foreignObject>
+                <svg style="width: 103px; height: 12px;" width="103" height="12">
+                    <defs>
+                        <path id="XVu7zlaHyfzAFwDI" d="M0,11.899999999999999 h103"/>
+                    </defs>
+                    <text fill="rgb(0, 0, 0)" font-size="12px" font-family="Helvetica" font-weight="400">
+                        <textPath xlink:href="#XVu7zlaHyfzAFwDI" startOffset="50%" text-anchor="middle">
+                            <tspan xml:space="preserve">Concrete Observer</tspan>
+                        </textPath>
+                    </text>
+                </svg>
+            </switch>
+        </g>
+        <path d="M 329 77.12 L 329 84.06 Q 329 91 319 91 L 256 91 Q 246 91 246 101 L 246 118" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 329 65.12 L 335 77.12 L 323 77.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 246 168 L 246 174 Q 246 180 256 180 L 313 180 Q 323 180 323 185.5 L 323 191" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="4" pointer-events="none"/>
+        <path d="M 329 77.12 L 329 84.06 Q 329 91 339 91 L 408 91 Q 418 91 418 101 L 418 118" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 329 65.12 L 335 77.12 L 323 77.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 362 191 L 355.5 191 Q 349 191 349 185.5 L 349 182.75 Q 349 180 359 180 L 408 180 Q 418 180 418 174 L 418 168" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="4" pointer-events="none"/>
+        <path d="M 246 168 L 246 174 Q 246 180 256 180 L 313 180 Q 323 180 323 185.5 L 323 191" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="4" pointer-events="none"/>
+        <path d="M 362 191 L 355.5 191 Q 349 191 349 185.5 L 349 182.75 Q 349 180 359 180 L 408 180 Q 418 180 418 174 L 418 168" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="4" pointer-events="none"/>
+    </g>
+</svg>

@@ -1,0 +1,24 @@
+<Player>
+    <Sprite>Player</Sprite>
+    <MaxHP>60</MaxHP>
+    <Deck>
+
+        <Card>Strike</Card>
+        <Card>Knife Throw</Card>
+        <Card>Knife Throw</Card>
+        <Card>Bash</Card>
+        <Card>Bash</Card>
+        <Card>Rapid Fire</Card>
+        <Card>Deadly Shot</Card>
+        <Card>Whirlwind</Card>
+        <Card>Inner Rage</Card>
+        <Card>Metalize</Card>
+        <Card>Block</Card>
+        <Card>Dodge</Card>
+        <Card>Backflip</Card>
+        <Card>Spiked Shield</Card>
+        <Card>Battle Plan</Card>
+
+        <NumRandomCards>0</NumRandomCards>
+    </Deck>
+</Player>

@@ -1,0 +1,127 @@
+<Fights>
+    <Fight>
+        <SpriteName>Fight1</SpriteName>
+        <Enemy pos="12,04" maxHP="10" damage="2" damageScale="0.5">Bat</Enemy>
+        <Enemy pos="25,08" maxHP="20" damage="3" damageScale="1.0">Spider</Enemy>
+        <Enemy pos="38,12" maxHP="10" damage="2" damageScale="0.5">Bat</Enemy>
+        <NumRewards>2</NumRewards>
+        <Rewards>
+            <Reward type="Apple" min="4" max="6"/>
+            <Reward type="AnyCard"/>
+            <Reward type="AnyCard"/>
+            <Reward type="AnyCard"/>
+        </Rewards>
+    </Fight>
+    <Fight>
+        <SpriteName>Fight1</SpriteName>
+        <Enemy pos="12,04" maxHP="10" damage="2" damageScale="0.5">Bat</Enemy>
+        <Enemy pos="25,08" maxHP="10" damage="2" damageScale="0.5">Bat</Enemy>
+        <Enemy pos="38,12" maxHP="10" damage="2" damageScale="0.5">Bat</Enemy>
+        <Enemy pos="38,04" maxHP="10" damage="2" damageScale="0.5">Bat</Enemy>
+        <Enemy pos="51,08" maxHP="10" damage="2" damageScale="0.5">Bat</Enemy>
+        <NumRewards>2</NumRewards>
+        <Rewards>
+            <Reward type="Apple" min="4" max="6"/>
+            <Reward type="AnyCard"/>
+            <Reward type="AnyCard"/>
+            <Reward type="AnyCard"/>
+        </Rewards>
+    </Fight>
+    <Fight>
+        <SpriteName>Fight1</SpriteName>
+        <Enemy pos="18,05" maxHP="30" damage="3" damageScale="1">Turtle</Enemy>
+        <Enemy pos="36,09" maxHP="30" damage="3" damageScale="1">Turtle</Enemy>
+        <NumRewards>2</NumRewards>
+        <Rewards>
+            <Reward type="Apple" min="4" max="6"/>
+            <Reward type="AnyCard"/>
+            <Reward type="AnyCard"/>
+            <Reward type="AnyCard"/>
+        </Rewards>
+    </Fight>
+    <Fight>
+        <SpriteName>Fight2</SpriteName>
+        <Enemy pos="14,04" maxHP="15" damage="3" damageScale="1">Spider</Enemy>
+        <Enemy pos="25,08" maxHP="20" damage="4" damageScale="2">Monster</Enemy>
+        <Enemy pos="44,16" maxHP="15" damage="3" damageScale="1">Spider</Enemy>
+        <NumRewards>2</NumRewards>
+        <Rewards>
+            <Reward type="Apple" min="4" max="6"/>
+            <Reward type="AnyCard"/>
+            <Reward type="AnyCard"/>
+            <Reward type="AnyCard"/>
+        </Rewards>
+    </Fight>
+    <Fight>
+        <SpriteName>Fight2</SpriteName>
+        <Enemy pos="30,04" maxHP="50" damage="8" damageScale="1">Skeleton</Enemy>
+        <NumRewards>2</NumRewards>
+        <Rewards>
+            <Reward type="Apple" min="4" max="6"/>
+            <Reward type="AnyCard"/>
+            <Reward type="AnyCard"/>
+            <Reward type="AnyCard"/>
+        </Rewards>
+    </Fight>
+
+    
+    <BossFight>
+        <SpriteName>BossFight</SpriteName>
+        <Enemy pos="65,04" maxHP="80" damage="6" damageScale="2">SpiderBoss</Enemy>
+        <NumRewards>3</NumRewards>
+        <Rewards>
+            <Reward type="Apple" min="8" max="10"/>
+            <Reward type="Apple" min="8" max="10"/>
+            <Reward type="Card">
+                <Card>Golden Book</Card>
+                <Card>Flex</Card>
+                <Card>Searing Blow</Card>
+                <Card>Golden Armor</Card>
+                <Card>Bludgeon</Card>
+                <Card>Skull Smash</Card>
+            </Reward>
+            <Reward type="Card">
+                <Card>Golden Book</Card>
+                <Card>Flex</Card>
+                <Card>Searing Blow</Card>
+                <Card>Golden Armor</Card>
+                <Card>Bludgeon</Card>
+                <Card>Skull Smash</Card>
+            </Reward>
+            <Reward type="Card">
+                <Card>Spider Silk</Card>
+            </Reward>
+        </Rewards>
+    </BossFight>
+    
+    <BossFight>
+        <SpriteName>BossFight</SpriteName>
+        <Enemy pos="65,04" maxHP="70" damage="5" damageScale="3">ReaperBoss</Enemy>
+        <NumRewards>3</NumRewards>
+        <Rewards>
+            <Reward type="Apple" min="8" max="10"/>
+            <Reward type="Apple" min="8" max="10"/>
+            <Reward type="Card">
+                <Card>Golden Book</Card>
+                <Card>Flex</Card>
+                <Card>Searing Blow</Card>
+                <Card>Golden Armor</Card>
+                <Card>Bludgeon</Card>
+                <Card>Skull Smash</Card>
+            </Reward>
+            <Reward type="Card">
+                <Card>Golden Book</Card>
+                <Card>Flex</Card>
+                <Card>Searing Blow</Card>
+                <Card>Golden Armor</Card>
+                <Card>Bludgeon</Card>
+                <Card>Skull Smash</Card>
+            </Reward>
+            <Reward type="Card">
+                <Card>Reapers Scythe</Card>
+            </Reward>
+        </Rewards>
+    </BossFight>
+
+
+</Fights>

@@ -1,0 +1,154 @@
+<svg xmlns="http://www.w3.org/2000/svg" 
+    xmlns:xlink="http://www.w3.org/1999/xlink" width="796px" height="253px" version="1.1">
+    <defs>
+        <style type="text/css">ul { margin-top: 0px; margin-bottom: 10px } &#xa;ol { margin-top: 0px; margin-bottom: 10px } &#xa;ul { margin-top: 0px; margin-bottom: 10px } &#xa;ol { margin-top: 0px; margin-bottom: 10px } &#xa;ul { margin-top: 0px; margin-bottom: 10px } &#xa;ol { margin-top: 0px; margin-bottom: 10px } &#xa;</style>
+    </defs>
+    <g transform="translate(0.5,0.5)">
+        <rect x="45" y="27" width="210" height="64" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 45 45 L 255 45" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="149.5" y="39.5">EnemyRoom</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="51.5" y="61.5">+ updateStatus(Position playerPos)</text>
+        </g>
+        <rect x="373" y="21" width="397" height="76" fill="#83e070" stroke="#000000" pointer-events="none"/>
+        <path d="M 373 53 L 770 53" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="571" y="33.5">&lt;&lt;Interface&gt;&gt;</text>
+            <text x="571" y="47.5">EnemyRoomStatus</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="379.5" y="69.5">+ updateRoomStatus(EnemyRoom enemyRoom, Position playerPos)</text>
+        </g>
+        <rect x="318" y="173" width="149" height="49" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 318 191 L 467 191" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="392" y="185.5">RoomFighting</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="324.5" y="207.5">+ updateRoomStatus(...)</text>
+        </g>
+        <path d="M 572 110.12 L 572 125 Q 572 135 562 135 L 403 135 Q 393 135 393 145 L 393 173" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 572 98.12 L 578 110.12 L 566 110.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 255 59 L 370.76 59" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 359.88 65 L 371.88 59 L 359.88 53" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(515.5,235.5)">
+            <switch>
+                <foreignObject style="overflow:visible;" pointer-events="all" width="88" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Concrete States</div>
+                    </div>
+                </foreignObject>
+                <svg style="width: 88px; height: 12px;" width="88" height="12">
+                    <defs>
+                        <path id="azN9IVaAmsEIxQCE" d="M0,11.899999999999999 h88"/>
+                    </defs>
+                    <text fill="rgb(0, 0, 0)" font-size="12px" font-family="Helvetica" font-weight="400">
+                        <textPath xlink:href="#azN9IVaAmsEIxQCE">
+                            <tspan xml:space="preserve">Concrete States</tspan>
+                        </textPath>
+                    </text>
+                </svg>
+            </switch>
+        </g>
+        <g transform="translate(557.5,0.5)">
+            <switch>
+                <foreignObject style="overflow:visible;" pointer-events="all" width="28" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">State</div>
+                    </div>
+                </foreignObject>
+                <svg style="width: 28px; height: 12px;" width="28" height="12">
+                    <defs>
+                        <path id="6zN9IVaAmsEIxQCF" d="M0,11.899999999999999 h28"/>
+                    </defs>
+                    <text fill="rgb(0, 0, 0)" font-size="12px" font-family="Helvetica" font-weight="400">
+                        <textPath xlink:href="#6zN9IVaAmsEIxQCF">
+                            <tspan xml:space="preserve">State</tspan>
+                        </textPath>
+                    </text>
+                </svg>
+            </switch>
+        </g>
+        <g transform="translate(137.5,7.5)">
+            <switch>
+                <foreignObject style="overflow:visible;" pointer-events="all" width="41" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">Context</div>
+                    </div>
+                </foreignObject>
+                <svg style="width: 41px; height: 12px;" width="41" height="12">
+                    <defs>
+                        <path id="GzN9IVaAmsEIxQCG" d="M0,11.899999999999999 h41"/>
+                    </defs>
+                    <text fill="rgb(0, 0, 0)" font-size="12px" font-family="Helvetica" font-weight="400">
+                        <textPath xlink:href="#GzN9IVaAmsEIxQCG">
+                            <tspan xml:space="preserve">Context</tspan>
+                        </textPath>
+                    </text>
+                </svg>
+            </switch>
+        </g>
+        <path d="M 10 110 L 250 110 L 250 125 L 265 125 L 265 150 L 10 150 Z" fill="#e6e6e6" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 10 110 L 250 110 L 265 125 L 250 125 L 250 110 L 265 125 L 265 150 L 10 150 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g transform="translate(12.5,115.5)">
+            <switch>
+                <foreignObject style="overflow:visible;" pointer-events="all" width="233" height="12" requiredFeatures="http://www.w3.org/TR/SVG11/feature#Extensibility">
+                    <div xmlns="http://www.w3.org/1999/xhtml" style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; vertical-align: top; white-space: nowrap;">
+                        <div xmlns="http://www.w3.org/1999/xhtml" style="display:inline-block;text-align:inherit;text-decoration:inherit;">status.updateRoomStatus(this, playerPos)</div>
+                    </div>
+                </foreignObject>
+                <svg style="width: 233px; height: 12px;" width="233" height="12">
+                    <defs>
+                        <path id="mzN9IVaAmsEIxQCH" d="M0,11.899999999999999 h233"/>
+                    </defs>
+                    <text fill="rgb(0, 0, 0)" font-size="12px" font-family="Helvetica" font-weight="400">
+                        <textPath xlink:href="#mzN9IVaAmsEIxQCH">
+                            <tspan xml:space="preserve">status.updateRoomStatus(this, playerPos)</tspan>
+                        </textPath>
+                    </text>
+                </svg>
+            </switch>
+        </g>
+        <path d="M 45 59 L 10 59 Q 0 59 0 69 L 0 110 Q 0 120 5 120 L 10 120" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="4" pointer-events="none"/>
+        <rect x="481" y="172.5" width="149" height="49" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 481 190.5 L 630 190.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="555" y="185">RoomNotVisited</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="487.5" y="207">+ updateRoomStatus(...)</text>
+        </g>
+        <rect x="644" y="173" width="149" height="49" fill="#7acff5" stroke="#000000" pointer-events="none"/>
+        <path d="M 644 191 L 793 191" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <g fill="#000000" font-family="Helvetica" font-weight="bold" text-anchor="middle" font-size="12px">
+            <text x="718" y="185.5">RoomVisited</text>
+        </g>
+        <g fill="#000000" font-family="Helvetica" font-size="12px">
+            <text x="650.5" y="207.5">+ updateRoomStatus(...)</text>
+        </g>
+        <path d="M 572 110.12 L 572 146 Q 572 156 572 164.25 L 572 172.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 572 98.12 L 578 110.12 L 566 110.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 572 110.12 L 572 125 Q 572 135 582 135 L 709 135 Q 719 135 719 145 L 719 173" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 572 98.12 L 578 110.12 L 566 110.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 255 59 L 370.76 59" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 359.88 65 L 371.88 59 L 359.88 53" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 45 59 L 10 59 Q 0 59 0 69 L 0 110 Q 0 120 5 120 L 10 120" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="4" pointer-events="none"/>
+        <path d="M 572 110.12 L 572 125 Q 572 135 562 135 L 403 135 Q 393 135 393 145 L 393 173" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 572 98.12 L 578 110.12 L 566 110.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 255 59 L 370.76 59" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="5" pointer-events="none"/>
+        <path d="M 359.88 65 L 371.88 59 L 359.88 53" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 572 110.12 L 572 146 Q 572 156 572 164.25 L 572 172.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 572 98.12 L 578 110.12 L 566 110.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 572 110.12 L 572 125 Q 572 135 582 135 L 709 135 Q 719 135 719 145 L 719 173" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 572 98.12 L 578 110.12 L 566 110.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 572 110.12 L 572 125 Q 572 135 562 135 L 403 135 Q 393 135 393 145 L 393 173" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 572 98.12 L 578 110.12 L 566 110.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 45 59 L 10 59 Q 0 59 0 69 L 0 110 Q 0 120 5 120 L 10 120" fill="none" stroke="#000000" stroke-miterlimit="10" stroke-dasharray="4" pointer-events="none"/>
+        <path d="M 572 110.12 L 572 146 Q 572 156 572 164.25 L 572 172.5" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 572 98.12 L 578 110.12 L 566 110.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 572 110.12 L 572 125 Q 572 135 582 135 L 709 135 Q 719 135 719 145 L 719 173" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+        <path d="M 572 98.12 L 578 110.12 L 566 110.12 Z" fill="none" stroke="#000000" stroke-miterlimit="10" pointer-events="none"/>
+    </g>
+</svg>
